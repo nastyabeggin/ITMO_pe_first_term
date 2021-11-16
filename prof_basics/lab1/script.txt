@@ -1,0 +1,122 @@
+#!/bin/sh
+touch kabuto3
+cat > kabuto3 <<- EOF 
+Возможности Overland=4 Surface=7 Underwater=7 Jump=1 Power=1 Intelligence=2 Gilled=0
+EOF
+mkdir numel3
+cd numel3
+touch cottonee
+touch trubbish 
+touch lanturn
+mkdir forretress
+touch granbull
+cat > cottonee <<- EOF
+Способности Overgrow Prankster
+Infiltrator
+EOF
+cat > trubbish <<- EOF
+weigth=68.3 height=24.0 atk=5
+def=6
+EOF
+cat > lanturn <<- EOF
+satk=8 sdef=8 spd=7
+EOF
+cat > granbull <<- EOF
+Тип диеты
+Carnivore
+EOF
+cd ..
+mkdir scolipede5
+cd scolipede5
+touch shuppet
+touch bayleef
+mkdir vileplume
+mkdir snubbull
+cat > shuppet <<- EOF
+Живет Cave Urban
+EOF
+cat > bayleef <<- EOF
+Ходы Ancientpower
+Bullet Seed Counter Double-Edge Fury Cutter Giga Drain Grass Pledge 
+Iron Tail Magic Coat Mud-Slap Role Play Secret Power Seed Bomb Sleep
+Talk Snore Synthesis Worry Seed
+EOF
+cd ..
+mkdir sharpedo0
+cd sharpedo0
+cat > natu <<- EOF
+Возможности Overland=4
+Surface=1 Sky=4 Jump=3 Power1=0 Intellegence=4
+EOF
+cat > garchomp <<- EOF
+Возможности 
+Overland=8 Surface=8 Sky=14 Burrow=8 Jump=3 Power=5
+Intelligence=4
+EOF
+cat > voltorb <<- EOF
+Развитые способности 
+Aftermath 
+EOF
+cd ..
+cat > venomoth3 <<- EOF
+satk=9 sdef=8 spd=9
+EOF
+cat > wigglytuff8 <<- EOF
+Способности This 
+is dummy text when pokemon does not contain something. It is better
+than NPE!
+EOF
+
+
+
+chmod -R 664 kabuto3
+cd numel3
+chmod 044 cottonee
+chmod 440 trubbish
+chmod 404 lanturn	
+chmod 576 forretress
+chmod 444 granbull
+cd ..
+chmod 330 numel3
+cd scolipede5
+chmod 044 shuppet
+chmod 440 bayleef
+chmod 751 vileplume
+chmod 335 snubbull	
+cd ..
+cd sharpedo0
+chmod 006 natu
+chmod 044 garchomp
+chmod 660 voltorb 
+cd ..
+chmod 524 sharpedo0
+chmod 444 venomoth3	
+chmod 004 wigglytuff8
+ls -l
+
+
+
+chmod 777 garchomp
+chmod 777 natu
+chmod 777 voltorb
+cd ..
+cd snubbull
+chmod 777 sharpedo0
+cd .. 
+cp -R sharpedo0 scolipede5/snubbull
+cd
+chmod 777 lab0/numel3/cottonee
+cat  lab0/numel3/granbull  lab0/numel3/cottonee > lab0/kabuto3_31 
+cd lab0
+ln wigglytuff8 numel3/lanturnwigglytuff
+chmod 777 numel3
+ln -s kabuto3 sharpedo0/garchompkabuto
+ln -s scolipede5 Copy_39
+chmod 777 wigglytuff8
+cd numel3
+rm lanturnwigglytuff
+cd ..
+cat wigglytuff8 > numel3/lanturnwigglytuff
+chmod 777 numel3/forretress
+cp venomoth3 numel3/forretress
+                         	

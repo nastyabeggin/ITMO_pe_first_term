@@ -1,0 +1,16 @@
+PATH=/usr/local/bin:/bin:/usr/bin
+#!/usr/bin/bash -e
+cd /home/s335038/lab0
+mkdir tmp
+ wc -l `echo *e */*e` > /tmp/e_ending 2>&1      
+chmod 777 scolipede5
+chmod 777 scolipede5/snubbull
+find . -type f -name '*l' | xargs ls -u | tail -2
+chmod 777 scolipede5/shuppet
+cat numel3/cottonee numel3/trubbish numel3/lanturn numel3/granbull scolipede5/shuppet scolipede5/bayleef sharpedo0/natu | nl  | grep -i "Se"  2>tmp/errors 
+#chmod 777 kabuto3
+#chmod 777 sharpedo0
+#chmod 777 sharpedo0/garchompkabuto
+cat `find . -type f -name "g*"` | nl | sort -r 2>&1 
+cat `find . -type f -name "*3"` | nl | sort 2>/dev/null
+wc -l kabuto3 >> kabuto3
