@@ -1,0 +1,27 @@
+\newpage
+\centering
+
+\vspace{10em}
+\begin{tikzpicture} [scale=2, transform shape, node distance = 2cm, on grid]
+\node (q1) [state] at (-2,2) {$b_1$};
+\node (q2) [state, right = of q1] {$b_2$};
+\node (q3) [state, right = of q2] {$b_3$};
+\node (q4) [state, below = of q1] {$b_4$};
+\node (q5) [state, below = of q2] {$b_5$};
+\node (q6) [state, below = of q3] {$b_6$}; 
+
+\path [-stealth, thin] 
+    (q1) edge [loop left]  node {$z_1$}()
+    (q4) edge node[left] {$z_1$} (q1)
+    (q2) edge node[above, near start] {$z_1$} (q6)
+    (q3) edge [bend left] node[right] {$z_1$} (q6)
+    (q2) edge [loop above]  node {$z_2$}()
+    (q1) edge node[above right] {$z_2$} (q5)
+    (q6) edge [bend left] node[below] {$z_2$} (q4);
+    (q5) edge node[below] {$z_2$} (q4)
+    (q3) edge node[above] {$z_2$} (q2)
+    (q4) edge [loop left]  node {$z_3$}()
+    (q1) edge node[above] {$z_3$} (q2)
+    (q6) edge node[left] {$z_3$} (q3)
+    (q5) edge node[left, near start] {$z_3$} (q3)
+\end{tikzpicture}

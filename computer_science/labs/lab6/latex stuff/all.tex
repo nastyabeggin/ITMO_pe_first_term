@@ -1,0 +1,40 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english, russian]{babel}
+\usepackage{amsmath}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\usepackage{commath}
+\usepackage{graphicx, geometry}
+\usepackage[usenames]{color}
+\usepackage{colortbl}
+\usepackage{multirow}
+\usepackage{tabularx}
+\usepackage{caption}
+\usepackage{tikz}
+\usetikzlibrary{automata, positioning, arrows}
+
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{\textbf{http://kvant.mccme.ru}}
+\fancyheadoffset{50pt}
+\lfoot{\textbf{30}}
+\renewcommand{\headrulewidth}{0pt}
+
+
+\geometry{a4paper,total={170mm,257mm},left=20mm,top=20mm,} %лист А4
+\setlist{nolistsep}
+\DeclareGraphicsExtensions{.pdf,.png,.jpg}
+\graphicspath{{pics/}}
+\pagecolor{white}
+
+\begin{document}
+
+	\input{titul_list.tex}
+	\thispagestyle{empty}
+	\input{main_page.tex}
+	\input{table.tex}
+	\thispagestyle{empty}
+	\input{graph.tex}
+	\thispagestyle{empty}
+\end{document}
